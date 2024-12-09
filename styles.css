@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&family=Stalinist+One&display=swap');
+
+.header-container {
+    background-color: #3b3102;
+    color: #FFFFFF;
+    max-width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    max-width: 20%;
+}
+
+body{
+    color:#656637;
+    background-color: #f2e8db;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+#image{
+    max-width: 50%;
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+button{
+    border: none;
+    border-radius: 5rem;
+    padding: 0.5rem 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    background-color: #3b3102;
+    color: #FFFFFF;;
+}
+
+button:hover, button.active {
+    background-color: #afaf6d;
+    cursor: pointer;
+  }
+
+main{
+    margin-top: 1rem;
+}
